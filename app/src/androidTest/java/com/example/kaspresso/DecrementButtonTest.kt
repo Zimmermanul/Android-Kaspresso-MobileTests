@@ -10,8 +10,7 @@ import com.kaspersky.kaspresso.testcases.api.testcase.TestCase
 import org.junit.Rule
 import org.junit.Test
 
-
-class IncrementButtonTest :
+class DecrementButtonTest :
     TestCase(kaspressoBuilder = Kaspresso.Builder.withForcedAllureSupport()) {
 
     @get:Rule
@@ -24,16 +23,16 @@ class IncrementButtonTest :
     )
 
     @Test
-    fun incrementButtonShouldIncreaseCounterValue() = run {
-        step("Increase counter value to 2") {
+    fun decrementButtonShouldDecreaseCounterValue() = run {
+        step("Decrease counter value to -2") {
             MainScreen {
                 repeat(2) {
-                    incrementButton.click()
+                    decrementButton.click()
                 }
             }
         }
-        step("Assert that counter value equals 2") {
-            counterText.hasText("Count: 2")
+        step("Assert that counter value equals -2") {
+            counterText.hasText("Count: -2")
         }
     }
 
