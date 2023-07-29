@@ -1,10 +1,15 @@
 *.iml
-.gradle
+.gradle/
+gradle/
+/gradlew
+/gradlew.bat
 .idea
 /local.properties
-.DS_Store
 /build
 /captures
 .externalNativeBuild
 .cxx
 local.properties
+allure-results/
+.todo
+*.properties
