@@ -3,6 +3,6 @@ This project is example of Android application with simple native UI tests on Ka
 
 It was made as an example of my working with setting up CI for running mobile tests with emulators.
 
-![001.png](forReadme/01.jpg)
+![01.jpg](forReadme/01.jpg)
 
-![002.png](forReadme/02.jpg)
+![02.jpg](forReadme/02.jpg)
